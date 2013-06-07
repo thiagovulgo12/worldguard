@@ -255,7 +255,7 @@ public class BukkitUtil {
         return entity instanceof Item
                 || entity instanceof TNTPrimed
                 || entity instanceof ExperienceOrb
-                || entity instanceof FallingSand
+                || entity instanceof FallingBlock
                 || (entity instanceof LivingEntity
                     && !(entity instanceof Tameable)
                     && !(entity instanceof Player));
