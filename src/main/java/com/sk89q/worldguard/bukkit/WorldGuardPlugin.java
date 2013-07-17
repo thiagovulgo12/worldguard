@@ -231,7 +231,7 @@ public class WorldGuardPlugin extends JavaPlugin {
         try {
             commands.execute(cmd.getName(), args, sender, sender);
         } catch (CommandPermissionsException e) {
-            sender.sendMessage(ChatColor.RED + "You don't have permission.");
+            sender.sendMessage(ChatColor.RED + "Voce nao e da Staff portanto nao tem permissao para isto.");
         } catch (MissingNestedCommandException e) {
             sender.sendMessage(ChatColor.RED + e.getUsage());
         } catch (CommandUsageException e) {
